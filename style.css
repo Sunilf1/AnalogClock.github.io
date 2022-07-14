@@ -1,0 +1,52 @@
+ body{
+    background: url(3234322.jpg);
+    
+ }
+
+#myclock{
+background:url(Clock.png);
+
+
+background-size: cover;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top:408.5px;
+margin-right: auto;
+margin-left: 984px;
+width: 88px;
+height: 88px;  
+}
+
+#hour,
+#minute,
+#second{
+    background:#966F33;
+    position: absolute;
+    transform-origin: bottom;
+}
+
+#hour{
+    width:2%;
+    height:25%;
+    top:25%;
+    left:49%;
+    
+
+}
+#minute{
+    width:1.5%;
+    height:30%;
+    top:20%;
+    left:49.2%;
+     
+}
+#second{
+    width:1%;
+    height:40%;
+    top:10%;
+    left:49.5%;
+   
+
+}
