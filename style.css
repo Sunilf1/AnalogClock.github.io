@@ -5,6 +5,7 @@
 
 #myclock{
 background:url(Clock.png);
+ border-radius: 50px;
 
 
 background-size: cover;
